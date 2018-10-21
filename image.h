@@ -32,7 +32,6 @@ public:
     Pixel GetSinglePixel(int, int);
     void SetSinglePixel(int, int, Pixel);
 
-    virtual void Update();
     void SetSource(Source *);
 private:
     int width, height;

@@ -15,7 +15,6 @@ class Source {
     public:
         Source();
         Image *GetOutput();
-        virtual void Update();
         virtual const char *SourceName() = 0;
     protected:
         virtual void Execute() = 0;
