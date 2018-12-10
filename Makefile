@@ -4,7 +4,7 @@ OBJ=$(SRC:.C=.o)
 prog: $(OBJ)
 	g++ $(OBJ) -o imgPro
 
-.C.o: $<
+.cpp.o: $<
 	g++ -I. -c $<
 
 clean:
